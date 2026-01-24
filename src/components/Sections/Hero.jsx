@@ -88,7 +88,7 @@ export default function Hero() {
                     </motion.div>
                     <motion.ul className="meta" variants={itemVariants}>
                         <li>Based in: Pune, India</li>
-                        <li>Stack: MERN, React, Node.js, MongoDB</li>
+                        <li>Stack: MERN, React, Node.js, Next.js</li>
                     </motion.ul>
                 </div>
                 <motion.div className="hero-right" variants={imageVariants}>
