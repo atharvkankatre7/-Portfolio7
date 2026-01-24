@@ -94,7 +94,7 @@ export default function Hero() {
                 <motion.div className="hero-right" variants={imageVariants}>
                     <div className="profile-image-container">
                         <img
-                            src={`${import.meta.env.BASE_URL}images/profile.jpg`}
+                            src="https://res.cloudinary.com/ddy3ofzg5/image/upload/v1769244765/profile_q7em5g.webp"
                             alt="Atharv Kankatre"
                             className={`profile-image ${imageLoaded ? 'loaded' : 'loading'}`}
                             onLoad={() => setImageLoaded(true)}
