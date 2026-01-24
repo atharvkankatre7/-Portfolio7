@@ -94,7 +94,7 @@ export default function Hero() {
                 <motion.div className="hero-right" variants={imageVariants}>
                     <div className="profile-image-container">
                         <img
-                            src="/images/profile.jpg"
+                            src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                             alt="Atharv Kankatre"
                             className={`profile-image ${imageLoaded ? 'loaded' : 'loading'}`}
                             onLoad={() => setImageLoaded(true)}

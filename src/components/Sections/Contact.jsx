@@ -104,7 +104,7 @@ export default function Contact() {
     const renderIcon = (type) => {
         switch (type) {
             case 'gmail':
-                return <img src="/images/gmail-icon.png" alt="Gmail" />;
+                return <img src={`${import.meta.env.BASE_URL}images/gmail-icon.png`} alt="Gmail" />;
             case 'phone':
                 return (
                     <svg viewBox="0 0 24 24" fill="none">
@@ -118,7 +118,7 @@ export default function Contact() {
                     </svg>
                 );
             case 'github':
-                return <img src="/images/github-icon.png" alt="GitHub" />;
+                return <img src={`${import.meta.env.BASE_URL}images/github-icon.png`} alt="GitHub" />;
             case 'linkedin':
                 return (
                     <svg viewBox="0 0 24 24" fill="currentColor">
