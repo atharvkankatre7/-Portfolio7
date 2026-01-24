@@ -2242,6 +2242,14 @@ body {
     white-space: nowrap;
   }
 
+  .sidebar .active-dot {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
   /* Topbar */
   .topbar {
     padding: 6px 12px;
