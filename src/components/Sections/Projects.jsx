@@ -10,7 +10,7 @@ const projects = [
         githubUrl: 'https://github.com/atharvkankatre7',
         status: 'Live',
         videoUrl: 'https://res.cloudinary.com/ddy3ofzg5/video/upload/v1768383661/video_20260114_150641_edit_b7iko5.mp4',
-        apkUrl: 'https://drive.google.com/uc?export=download&id=18gNjE5U5kwMXKaG6j1uMrCyn8jrqQt4n',
+        apkUrl: 'https://drive.google.com/file/d/1y1hVxLjN78gnifxjfs5UbYr3Z-Iidzge/view?usp=drive_link',
         description: 'A lightweight mobile app that lets two users watch the same local video file in perfect sync. Enables couples or friends to watch videos together remotely while maintaining perfect synchronization.',
         features: [
             'Local File Sync - Watch videos already on your device',
